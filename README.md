@@ -1,2 +1,1 @@
 # GvvangSeop.github.io
-Blog
