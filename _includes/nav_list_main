@@ -11,6 +11,15 @@
             📚 전체 글 수 {{sum}} 개
       </li>
       <li>
+        <span class="nav__sub-title">Game Engine</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Game Engine" %}
+                        <li><a href="/categories/c" class="">Game Engine ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">C/C++</span>
             <ul>
                 {% for category in site.categories %}
